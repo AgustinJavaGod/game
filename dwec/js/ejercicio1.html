@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  </head>
+  <body  class="text-center">
+    <h1>Ejercicio 1</h1>
+    <br><br>
+    <label class="label">Código del evento click dentro de la etiqueta INPUT</label>
+    <input type="button" class="btn-sm btn-dark" value="Botón 1" onclick="alert('Click botón 1.')">
+    <br><br>
+    <label>Código del evento click dentro de la etiqueta SCRIPT</label>
+    <input type="button" class="btn-sm btn-dark" id="btn2" value="Botón 2">
+    <br><br>
+    <label>Código del evento click en un fichero js externo</label>
+    <input type="button" class="btn-sm btn-dark" id="btn3" value="Botón 3">
+    <br><br><br><br>
+    <a href="../../dwec.html" class="btn btn-dark">Volver</a>
+
+ 
+    <script src="ejercicio1.js"></script>
+
+    <script type="text/javascript">
+        function alert2(){
+            alert('Click botón 2.')
+        }
+        var boton2 = document.getElementById("btn2")
+        boton2.onclick = alert2
+    </script>
+
+
+  </body>
+</html>

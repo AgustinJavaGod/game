@@ -1,0 +1,75 @@
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
+
+.fit-image{
+  width: 100%;
+  object-fit: cover;
+  height: 300px; /* only if you want fixed height */
+  }
+/*
+.modal-backdrop {
+  position:unset !important;
+  z-index: 0
+}
+*/
+
+.navbar{
+  z-index:1
+}
+
+.dropdown-item{
+  color: azure
+}
+
+.dropdown-item:hover{
+  background-color: blueviolet;
+  border-radius: 2px
+}
+
+.modal-header {
+  padding-bottom: 0px;
+}
+
+
+.modal-footer {
+  border-top: 0 none;
+}
+
+
+.nav-item{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;  
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-instagram:hover {
+  opacity: 0.7;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color:white;
+}
+
+.fa-youtube {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube:hover {
+  opacity: 0.7;
+  background: #bb0000;
+  color: white;
+}
