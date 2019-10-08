@@ -8,6 +8,14 @@ Contenidos del curso, pruebas y exámenes.
 DIW #Diseño de interfaces web.
 DWES #Desarrollo web entorno servidor.
 DWEC #Desarrollo web entorno cliente.
+Pruebas #Prueba proyecto
+Pokémon #JQuery json pokedex
+```
+```bash
+Falta:
+- Añadir acceso
+- Base de datos
+
 ```
 
 ## Equipo
